@@ -1,0 +1,15 @@
+"""
+Created on Wed Feb 11 18:53:34 2015
+Author: Sharad Talekar
+Purpose: Creating XML without using ElementTree
+"""
+
+i=0
+t=3
+while i<=t:
+    xmlname = "xml"+str(i)+".xml"
+    fh = open(xmlname,"w")
+    #xml file goes here
+    fh.write("<root><id>{}</id><doc>this is dummy</doc><sourceprofile>Res = 640x480</sourceprofile></root>".format(i))
+    fh.close()    
+    i = i + 1
