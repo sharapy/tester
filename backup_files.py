@@ -2,7 +2,7 @@
 """
 Created on Wed Feb 18 20:12:42 2015
 Author: Sharad Talekar
-Purpose: Program to create backup of files in some folder
+Purpose: Program to create backup of files in some folder and zip it
 """
 import os
 import time
